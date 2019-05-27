@@ -6,4 +6,4 @@ Will automatically generate all the PCConsoleTOC.bin files that Mass Effect 3 ne
 
 Requires [ErikJS's binkw32 dlls](https://github.com/Erik-JS/masseffect-binkw32/releases/tag/r4)
 
-Put those in your Mass Effect 3\Binaries\Win32 folder, then create a folder there called ASI, and put this in it.
+Put those in your Mass Effect 3\Binaries\Win32 folder, then create a folder there called ASI, and put [this](https://github.com/SirCxyrtyx/AutoTOC-asi/releases/download/v1.0/AutoTOC.asi) in it.
