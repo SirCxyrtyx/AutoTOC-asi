@@ -190,8 +190,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="IniFile.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IniFile.h" />
     <ClInclude Include="TOCUpdater.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
