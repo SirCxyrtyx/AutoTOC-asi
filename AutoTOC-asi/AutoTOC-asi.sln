@@ -9,6 +9,8 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|LE = Debug|LE
 		Debug|ME3 = Debug|ME3
+		EXE|LE = EXE|LE
+		EXE|ME3 = EXE|ME3
 		Release|LE = Release|LE
 		Release|ME3 = Release|ME3
 	EndGlobalSection
@@ -17,8 +19,14 @@ Global
 		{D72183F9-2733-4513-9E77-D7177754D039}.Debug|LE.Build.0 = Debug|x64
 		{D72183F9-2733-4513-9E77-D7177754D039}.Debug|ME3.ActiveCfg = Debug|Win32
 		{D72183F9-2733-4513-9E77-D7177754D039}.Debug|ME3.Build.0 = Debug|Win32
+		{D72183F9-2733-4513-9E77-D7177754D039}.EXE|LE.ActiveCfg = EXE|x64
+		{D72183F9-2733-4513-9E77-D7177754D039}.EXE|LE.Build.0 = EXE|x64
+		{D72183F9-2733-4513-9E77-D7177754D039}.EXE|ME3.ActiveCfg = EXE|Win32
+		{D72183F9-2733-4513-9E77-D7177754D039}.EXE|ME3.Build.0 = EXE|Win32
 		{D72183F9-2733-4513-9E77-D7177754D039}.Release|LE.ActiveCfg = Release|x64
-		{D72183F9-2733-4513-9E77-D7177754D039}.Release|ME3.ActiveCfg = Release|x64
+		{D72183F9-2733-4513-9E77-D7177754D039}.Release|LE.Build.0 = Release|x64
+		{D72183F9-2733-4513-9E77-D7177754D039}.Release|ME3.ActiveCfg = Release|Win32
+		{D72183F9-2733-4513-9E77-D7177754D039}.Release|ME3.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
