@@ -4,22 +4,22 @@
 
 class IniFile
 {
-	std::wstring iniPath;
-	std::vector<std::wstring> replacements;
+	std::string iniPath;
+	std::vector<std::string> replacements;
 	bool readOnly;
 
 public:
-	explicit IniFile(std::wstring iniPath);
+	explicit IniFile(std::string iniPath);
 
 	~IniFile();
 
-	void writeValue(const std::wstring& section, const std::wstring& key, const std::wstring& value) const;
+	void writeValue(const std::string& section, const std::string& key, const std::string& value) const;
 
-	[[nodiscard]] std::wstring readValue(const std::wstring& section, const std::wstring& key) const;
+	[[nodiscard]] std::string readValue(const std::string& section, const std::string& key) const;
 
-	void removeKey(const std::wstring& section, const std::wstring& key) const;
+	void removeKey(const std::string& section, const std::string& key) const;
 
-	void removeKeys(const std::wstring& section, const std::wstring& key) const;
+	void removeKeys(const std::string& section, const std::string& key) const;
 
-	void writeNewValue(const std::wstring& section, const std::wstring& key, const std::wstring& value);
+	void writeNewValue(const std::string& section, const std::string& key, const std::string& value);
 };
